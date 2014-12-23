@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="keywords" content="number,radix,convert,进制，数基" />        
+    <meta name="description" content="一款很棒的进制转换小工具，支持常用进制的随意转换" />  
+    <meta name="author" content="yanhaijing">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>进制转换工具</title>
+    <link rel="stylesheet" href="plugin/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">进制转换工具</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="http://yanhaijing.com">我的博客</a></li>
+            <li><a href="http://yanhaijing.com/basejs/">JavaScript简易教程</a></li>
+            <li><a href="http://yanhaijing.com/es5/">ECMAScript5合集</a></li>
+            <li><a href="http://yanhaijing.com/myProject">开源项目</a></li>
+            <li><a href="http://yanhaijing.com/yan_about.html">关于</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+    <section class="container-fluid">
+        <h1>进制转换工具</h1>
+        <div class="row">
+            <div class="col-md-12">
+                <form class="form">
+                    <div class="form-group">
+                        <label for="number">数据源：</label>
+                        <input id="number" class="form-control" type="text" autofocus required placeholder="仅支持整数">            
+                    </div>
+                    <div class="form-group">
+                        <label for="radix">数据基数：</label>
+                        <select id="radix" class="form-control">
+                            <option value="10" selected>十进制</option>
+                            <option value="16">十六进制</option>
+                            <option value="2">二进制</option>
+                            <option value="8">八进制</option>                            
+                        </select>
+                    </div>                   
+
+                    <label><input id="submit" class="btn btn-default btn-primary" type="submit" value="转换"></label>
+                </form>
+            </div>
+        </div>
+        <div class="share-wp clearfix">
+            <!-- JiaThis Button BEGIN -->
+            <div class="jiathis_style">
+                <span class="jiathis_txt">分享到：</span>
+                <a class="jiathis_button_tools_1"></a>
+                <a class="jiathis_button_tools_2"></a>
+                <a class="jiathis_button_tools_3"></a>
+                <a class="jiathis_button_tools_4"></a>
+                <a href="http://www.jiathis.com/share?uid=1908435" class="jiathis jiathis_txt jiathis_separator jtico jtico_jiathis" target="_blank">更多</a>
+                <a class="jiathis_counter_style"></a>
+            </div>
+            <script type="text/javascript">
+            var jiathis_config = {data_track_clickback:'true'};
+            </script>
+            <script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=1394090280134564" charset="utf-8"></script>
+            <!-- JiaThis Button END -->
+        </div>
+        <div class="result-wp">
+            <h2>常用进制</h2>
+            <div id="result"></div>
+        </div>       
+    </section>
+    
+    <script id="t:result" type="text/template">
+    <div class="item">
+        <span><%=radix%>进制：</span>
+        <%=number%>
+    </div>
+    </script>
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="plugin/bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/baiduTemplate.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>

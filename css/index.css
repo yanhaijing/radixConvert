@@ -1,0 +1,17 @@
+body{
+    padding-top: 50px;
+}
+.form{
+    margin-top: 10px;
+}
+.share-wp{
+    margin-top: 15px; 
+}
+.item{
+    word-spacing: normal;
+}
+.item span{
+    display: inline-block;
+    width: 60px;
+    text-align: right;
+}
