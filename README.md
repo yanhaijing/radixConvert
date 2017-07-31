@@ -1,4 +1,4 @@
-## radixConvert [![license](http://img.shields.io/npm/l/express.svg)](https://github.com/yanhaijing/radixConvert/blob/master/MIT-LICENSE.txt)
+## radixConvert [![license](http://img.shields.io/npm/l/express.svg)](https://github.com/yanhaijing/radixConvert/blob/gh-pages/MIT-LICENSE.txt)
 
 radixConvert是一款很棒的进制转换小工具，支持常用进制的随意转换。
 
