@@ -1,8 +1,8 @@
-##radixConvert [![license](http://img.shields.io/npm/l/express.svg)](https://github.com/yanhaijing/data.js/blob/master/MIT-LICENSE.txt)
+## radixConvert [![license](http://img.shields.io/npm/l/express.svg)](https://github.com/yanhaijing/data.js/blob/master/MIT-LICENSE.txt)
 
 radixConvert是一款很棒的进制转换小工具，支持常用进制的随意转换。
 
-##Authors
+## Authors
 
 **yanhaijing**
 
@@ -10,6 +10,6 @@ radixConvert是一款很棒的进制转换小工具，支持常用进制的随�
 - [Email](mailto:yanhaijing@yeah.net "yanhaijing's Email")
 - [Blog](http://yanhaijing.com "yanhaijing's Blog")
 
-##Issues
+## Issues
 
 - [report question](https://github.com/yanhaijing/radixConvert/issues "report question")
